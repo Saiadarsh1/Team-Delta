@@ -1,0 +1,723 @@
+<html>
+  <head>
+    <title>deepthi resume</title>
+  </head>
+  <style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin:10px;
+    background-image: url("https://i.imgur.com/qXapJRH.png");
+    height:100%;
+    background-position:center;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+  }
+  .navbar{
+    
+    background-color: #adefd1ff;
+    height:auto;
+    margin:20px;
+      border-radius:10px;
+    box-shadow: 0 0 5px #00203fff;
+    position:sticky;
+   
+   
+    
+    }
+      
+  .navbar-container1{
+    display:flex;
+   
+  }
+  .img-nav{
+    padding:20px;
+    width:40%;
+    background-color: #adefd1ff;
+    border-radius:10px;
+    
+    
+  }
+  .img-nav img{
+    border-radius:50%;
+    border-left:8px solid orange;
+    border-right:8px solid red;
+    border-top:8px solid blue;
+    border-bottom:8px solid green;
+  }
+  .about-nav{
+    background-color:#adefd1ff;
+    padding:20px;
+    color:black;
+    border-radius:10px;
+  }
+  .about-nav h1{
+
+    padding-top:50px;
+    font-size:50px;
+    padding-bottom:30px;
+  }
+  .about-nav h1 span{
+    color:#dd571c;
+  }
+  
+  .about-nav ul li{
+    font-size:18px;
+    padding-top:20px;
+    padding-left:50px;
+  }
+  .nav-main{
+  
+    padding:15px 10px 10px 10px;
+    background-color:#adefd1ff;
+    border:1px solid #00203fff; 
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+
+  }
+   .nav-main:hover{
+    
+    padding:15px 10px 15px 10px;
+    border:2px solid #00203fff;
+    
+
+   }
+  .nav-main a{
+    padding:6px 50px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    color:#750000; 
+  }
+  .nav-main a:onclick{
+    transition:5s;
+    scrolling-behavior:smooth;
+  }
+  
+  .nav-main a:hover{
+    background-color:white;
+    color:black;
+    border-radius:20px;
+  }
+  .education{
+      color:white;
+    height:auto;
+    margin:10px;
+    padding:20px;
+    display:flex;
+      border-radius:10px;
+    
+  }
+  .section2 h2{
+    padding-left:60px;
+    color:#750000;
+    font-size:30px;
+  }
+  .education .educ-details{
+    width:25%;
+    color:white;
+    padding:20px;
+    margin:10px 30px 20px 50px;
+    border-radius:10px;
+    background-color:#00203fff;
+    box-shadow: 0 0 5px #00203fff;
+    
+
+  }
+    .education .educ-details:hover{
+        border:5px solid #ffd700;
+    }
+  .education .educ-details ul li{
+    line-height:1.5;
+    padding-left:10px;
+  }
+  .education .educ-details span{
+    color:#ffd700;
+    font-size:20px;
+  }
+ .skills{
+    height:auto;
+    margin:10px;
+    padding:20px;
+    display:flex;
+ }
+ .skills .section-skill{
+    width:25%;
+    color:#00203fff;
+    padding:20px;
+    margin:10px 30px 20px 50px;
+    border-radius:10px;
+    border:1px solid #00203fff;
+    background-color:#adefd1ff;
+    box-shadow: 0 0 5px #00203fff;
+
+ }
+ .skills .section-skill:hover{
+    border:5px solid #00203fff;
+ }
+ .skills .section-skill h3{
+    padding-left:10px;
+    font-size:20px;
+ }
+ .skills .section-skill ul li{
+    
+    padding-left:60px;
+    line-height:1.5;
+    color:black;
+    font-size:18px;
+ }
+ .projects-details{
+    height:auto;
+    margin:10px;
+    padding:20px;
+    display:flex;
+
+ }
+ .project-details ul li{
+    margin-left:80px;
+     margin-right:80px;
+    padding:10px 10px 10px 20px;
+    background-color:#00203fff;
+    color:white;
+    border-radius:10px;
+    font-size:18px;
+    text-decoration:none;
+ }
+ .project-details li:hover{
+  border-right:10px solid #ffd700;
+   border-top:3px solid #ffd700;
+    border-bottom:3px solid #ffd700;
+    border-radius:30px;
+ }
+ .project-details ul li span{
+    float:right;
+    
+   
+ }
+ .project-details ul li a{
+   margin-right:20px;
+    text-decoration:none;
+    font-size:18px;
+    color:#ffd700;
+ }
+  .project-details ul li a:hover{
+    color:white;
+  }
+  .inter-details{
+    height:auto;
+    margin:10px;
+    padding:20px;
+    display:flex;
+
+  }
+  .inter-details .intern-section{
+     width:25%;
+    color:#00203fff;
+    padding:0px 20px 10px 30px;
+    margin:10px 30px 20px 50px;
+    border-radius:10px;
+    border:1px solid #00203fff;
+    background-color:#adefd1ff;
+    text-align:space-between;
+    box-shadow: 0 0 5px #00203fff;
+  }
+  .inter-details .intern-section:hover{
+    border:5px solid #00203fff;
+  }
+  .inter-details .intern-section img{
+    top:50%;
+    border-radius:50%; 
+    transform:translateY(-30%);
+    border:5px solid #00203fff;
+  }
+  .inter-details .intern-section img:hover{
+    border-radius:20%;
+  }
+  .inter-details p{
+    color:black;
+    font-size:18px;
+  }
+  .inter-details .intern-section .btn{
+    font-size:15px;
+    color:white;
+    margin:5px;
+    padding:8px;
+    background-color:#00203fff;
+    border-radius:20px;
+    
+    
+  }
+   .inter-details .btn:hover{
+    background-color:#ffd700;
+    color:#00203fff;
+   }
+  .participations{
+       height:auto;
+    margin:10px;
+    padding:20px;
+    display:flex;
+  }
+  .participations .participate-info{
+    width:25%;
+    color:white;
+    padding:20px;
+    margin:10px 30px 10px 50px;
+    border-radius:10px;
+    box-shadow: 0 0 5px #00203fff;
+    background-color:#00203fff;
+  }
+  .participations .participate-info:hover{
+    border:5px solid #ffd700;
+  }
+  .participations .participate-info a{
+    text-decoration:none;
+  }
+  .participations .participate-info .btn-part{
+    font-size:15px;
+    color:#002030fff;
+    margin:5px;
+    padding:8px;
+    background-color:#adefd1ff;
+    border-radius:20px;
+   }
+   .participations .participate-info .btn-part:hover{
+    background-color:#ffd700;
+    color:#002030fff;
+
+   }
+  .participations .participate-info .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+      }
+  .participations .participate-info .overlay:target {
+        visibility: visible;
+        opacity: 1;
+      }
+  .participations .participate-info .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
+  .participations .participate-info .popup .close:hover {
+        color: #06d85f;
+      }
+  .participations .participate-info .popup {
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 50%;
+        position: relative;
+        transition: all 5s ease-in-out;
+      }
+  .contact-details {
+     height:auto;
+    margin:20px 60px 20px 60px;
+    padding:20px;
+    display:flex;
+    background-color: #adefd1ff;
+    border-radius: 10px;
+    border: 2px solid #00203fff;
+
+  }
+  .contact-details .cont-sec1{
+    width:50%;
+    color:black;
+    padding:20px;
+    border-radius:10px;
+    background-color:#adefd1ff;
+
+  }
+  .contact-details .cont-sec1 ul li{
+font-size:18px;
+    padding-top:20px;
+    padding-left:50px;
+  }
+  .contact-details .cont-sec1 h3{
+    font-size:23px;
+    color:#dd571c;
+  }
+   .contact-details a{
+    text-decoration:none;
+    color:#dd571c;
+    padding:10px;
+   }
+  .contact-details a:hover{
+      color:red;
+      font-weight:bold;
+    }
+     .contact-details .cont-sec2 h3{
+    font-size:25px;
+    margin-top:30px;
+    justify-content:center;
+    align-items:center;
+    color:#dd571c;
+    margin-left:100px;
+  }
+   .contact-details .cont-sec2 form 
+   {
+      margin:20px;
+    
+   }
+     .contact-details .cont-sec2 form:focus {
+      outline:0;
+     }
+   .contact-details .cont-sec2 form input{
+    padding:10px;
+    border:2px solid #002030fff;
+    border-radius:10px;
+    margin:10px 10px 10px 100px;
+    width:300px;
+    color:#002030ff;
+    font-size:18px;
+    background:transparent
+   }
+    .contact-details .cont-sec2 form .textarea{
+      width:300px;
+      height:150px;
+       color:#002030ff;
+    font-size:18px;
+    background:transparent;
+     padding:10px;
+    border:2px solid #002030fff;
+    border-radius:10px;
+    margin:10px 10px 10px 100px;
+    }
+   .contact-details .cont-sec2 .button {
+      padding:10px;
+      background:#002030ff;
+      color:white;
+      width:100px;
+      font-size:20px;
+      border-radius:10px;
+   }
+   .contact-details .cont-sec2 .button:hover {
+    border:4px solid #ffd700;
+    border-radius:0px;
+
+   }
+
+  </style>
+  <body>
+  <nav class="navbar">
+  <section class="navbar-container1">
+  <div class="img-nav"><center>
+  <img src="https://i.imgur.com/9p2INvy.png"/ width="300px" height="auto"></div></center>
+  <div class="about-nav">
+         <h1>MADHABATTULA <span>DEEPTHI</span></h1>
+         <ul type="none">
+    <li>Hi There, I am Software and fresher. </li>
+    <li>I have a enough skills as a software developer.</li>
+    <li>I am happy to meet you</li>
+    </ul><br>
+  </div>
+  </section><br>
+  <section class="nav-main">
+  <center>
+    <a href="#education">Education</a>
+           <a href="#skills-details">Skills</a>
+           <a href="#projects">Projects</a>
+           <a href="#internships">Internships</a>
+           <a href="#internships">Experience</a>
+           <a href="#participations">Participations</a>
+           <a href="#contact">Contact</a>
+           </center>
+  </section>
+  </nav>
+  <br>
+
+  <div id="eduacation" class="section2">
+  <h2>Education </h2>
+<section  class="education">
+
+<div class="educ-details">
+<ul type="none">
+<li><span>&#x1f530;B-Tech</span&#x1f530;></li>
+<li>Gayatri Vidya Parishad College of Engineering  for women</li>
+<li>JNTUK | 2024</li>
+<li>7.5</li>
+</ul>
+</div>
+<div class="educ-details">
+<ul type="none">
+  <li><span>&#x1f530;Intermediate</span></li>
+  <li> Sri Chaitanya Junior College   </li>
+<li>  2020 </li>
+<li> 9.59 </li>
+</ul></div>
+<div class="educ-details">
+<ul type="none">
+  <li><span>&#x1f530;School</span></li>
+  <li> Sri Vijetha English Medium School </li>
+<li> SSC | 2018 </li>
+<li> 9.5 </li>
+</ul>
+</div>
+</section>
+</div>
+
+<!--skills section-->
+
+<div id="skills-details" class="section2">
+<h2>Skills</h2>
+<section class="skills">
+<div class="section-skill">
+<h3><span>&#x1f530;Techinical Skills</span></h3>
+<ul type="none">
+<br>
+<li>&#x1f538;Programming Languages:<br>&emsp; C,C++,Python</li><br>
+<li>&#x1f538;Web Technologies: <br>&emsp;&ensp;HTML,CSS</li><br>
+<li>&#x1f538;Others:<br> &emsp;&ensp;Canva</li>
+</ul>
+</div>
+<div class="section-skill">
+<h3><span>&#x1f530;Interpersonal skills</span></h3><br>
+ <ul type="none">
+   <li>&#x1f538;Good Team player</li>
+   <li>&#x1f538;Hard Worker and smart worker</li>
+   <li>&#x1f538;Adaptive in nature</li>
+   <li>&#x1f538;Quick Learner</li>
+   
+   </ul>
+</div>
+</section> 
+</div>
+
+<!--projects section-->
+
+<div id="projects" class="section2">
+<h2>Projects</h2>
+<section class="project-details">
+<ul type="none"><br><br>
+<li>&#x1f538;Developed an e-commerce learning web application using HTML,CSS and bootsrap <span><a href="https://deepthi35.github.io/e-learning_web_application/">See project</a></span></li><br>
+<li>&#x1f538;Developed a caculator web application using HTML,CSS and js<span><a href="https://www.linkedin.com/posts/deepthi-madhabattula-a65178237_hello-everyone-i-completed-task-4-among-activity-6987093819146088448-iaBw?utm_source=share&utm_medium=member_desktop">See project</a></span></li><br>
+<li>&#x1f538;Developed a to-do list web application using html,css and js <span><a href="https://www.linkedin.com/posts/deepthi-madhabattula-a65178237_hello-everyone-i-completed-task-1-among-activity-6987086737739051008-5dkE?utm_source=share&utm_medium=member_desktop">See project</a></span></li>
+</ul>
+</section>
+<br><br>
+</div>
+
+<!--interships section-->
+
+<div id="internships" class="section2">
+<h2>Internships</h2>
+<section class="inter-details">
+<div class="intern-section">
+<center><img src="https://i.imgur.com/vVqsB0s.jpeg" width="80px" alt="" /></center>
+<p>Completed a one-month Web Development and Design internship at Oasis Infobyte</p><br>
+<center><button class="btn" href="#popup1">See more</button></center>
+ 
+</div>
+<div class="intern-section">
+<center><img src="https://i.imgur.com/TKxCKE2.jpeg" width="80px" alt="" /></center>
+<p>currently working as a intern at KDL</p><br><br>
+<center><button class="btn">See more</button></center>
+</div>
+
+<div class="intern-section">
+<center><img src="https://i.imgur.com/PVxgbrZ.png" width="80px" alt="" /></center>
+<p>Worked as a community manager intern at Nblik for 12 days</p><br>
+<center><button class="btn">See more</button></center>
+</div>
+
+<div class="intern-section">
+<center><img src="https://i.imgur.com/ld0wbhF.jpeg" width="80px" alt="" /></center>
+<p>worked as a Social media intern in Hamari Pahchan (Ngo) for 1 month</p><br>
+<center><button class="btn">See more</button></center>
+</div>
+
+</section>
+</div>
+
+<!--participations and certificates-->
+
+<div id="participations" class="section2">
+<h2>Participations and certificates</h2>
+
+<section class="participations">
+
+<div class="participate-info">
+<p>&#x1f530; Participated in a front-end development competition which was conducted in GVPCEW and our team secured second position.</p><br><br><br>
+<center><a class="btn-part" href="#popup1">See more</a></center><br>
+<div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Web Developement competition certificate</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center>
+          <br>
+            <img src="https://i.imgur.com/28ufLvm.jpeg" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="participate-info">
+<p>&#x1f530; Participated in a photography contest organized by GGVPCEW IEEE students.</p><br><br><br><br>
+<center><a class="btn-part" href="#popup2">See more</a></center><br>
+<div id="popup2" class="overlay">
+      <div class="popup">
+        <center><h2>photography contest certificate</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center>
+          <br>
+            <img src="https://i.imgur.com/Y6dtZiE.jpeg" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="participate-info">
+<p>&#x1f530; Particiapted in "Web Development" program for 2 months at 1 stop.</p><br><br><br><br>
+<center><a class="btn-part" href="#popup3">See more</a></center><br>
+<div id="popup3" class="overlay">
+      <div class="popup">
+        <center><h2>Certification of participation at 1stop</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center><br>
+            <img src="https://i.imgur.com/r961swu.jpeg" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="participate-info">
+<p>&#x1f530; Recieved certificate for completing the industrial program on web development from Raise Digital and for completing e-commerce web application.</p><br><br>
+<center><a class="btn-part" href="#popup4">See more</a></center><br>
+<div id="popup4" class="overlay">
+      <div class="popup">
+        <center><h2>certificate from Raise digital</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center><br>
+            <img src="https://i.imgur.com/kOPeYop.jpeg" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+</section>
+<br>
+<section class="participations">
+
+<div class="participate-info">
+<p>&#x1f530; Received a certificate for completing a python course in udemy.<br></p><br><br>
+<center><a class="btn-part" href="#popup5">See more</a></center><br>
+<div id="popup5" class="overlay">
+      <div class="popup">
+        <center><h2>python certificate in udemy</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center><br>
+            <img src="https://i.imgur.com/28ufLvm.jpeg" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="participate-info">
+<p>&#x1f530; Participated in a front-end development competition which was conducted in GVPCEW and our team secured second position.</p><br><br>
+<center><a class="btn-part" href="#popup6">See more</a></center><br>
+<div id="popup6" class="overlay">
+      <div class="popup">
+        <center><h2>python certificate in udemy</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center><br>
+            <img src="" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="participate-info">
+<p>&#x1f530; Participated in a front-end development competition which was conducted in GVPCEW and our team secured second position.</p><br><br>
+<center><a class="btn-part" href="#popup7">See more</a></center><br>
+<div id="popup7" class="overlay">
+      <div class="popup">
+        <center><h2>python certificate in udemy</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center><br>
+            <img src="" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="participate-info">
+<p>&#x1f530; Participated in a front-end development competition which was conducted in GVPCEW and our team secured second position.</p><br><br>
+<center><a class="btn-part" href="#popup8">See more</a></center><br>
+<div id="popup8" class="overlay">
+      <div class="popup">
+        <center><h2>python certificate in udemy</h2></center>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <center><br>
+            <img src="" width="500" height="300" alt="" />
+          </center>
+        </div>
+      </div>
+    </div>
+</div>
+
+</section>
+</div>
+<!--Contact details-->
+<div id="contact" class="section2">
+<h2>Contact details</h2>
+<section class="contact-details">
+<div class="cont-sec1">
+  <ul type="none">
+  <h3>contact</h3>
+    <li>&#x1f4e7; deepthimadhabattula@gmail.com</li>
+    <li>&#x1f4de; +91 6300301770</li>
+    <li>&#x1f30e; Arilova,Visakhapatnam</li>
+    </ul><br>
+     <ul type="none">
+  <h3>Reference</h3>
+    <li>Linkedin:<br> <a href="https://www.linkedin.com/in/deepthi-madhabattula-a65178237">https://www.linkedin.com/in/deepthi-madhabattula-a65178237</a></li>
+<li>GitHub: <br><a href="https://github.com/Deepthi35">https://github.com/Deepthi35</a></li>
+    </ul><br>
+</div>
+
+<div class="cont-sec2">
+<center><h3>FeedBack</h3></center>
+<form>
+
+<input type="text" placeholder="enter your email "/><br>
+<textarea class="textarea" type="text" placeholder="Enter your quries"/></textarea><br>
+<center><input type="submit" value="submit" class="button"/><br></center>
+</form>
+
+</div>
+</section>
+<div>
+<br><br>
+  </dody>
+</html>
