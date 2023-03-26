@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	 <style>
+		
+
+body{
+    background-color:rgb(46, 44, 44)
+}
+		a:link {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: antiquewhite;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+		h2{
+			color: rgb(248, 248, 247);
+			position: absolute;
+			bottom:400px;
+			left:100px;
+			
+		}
+		h4{
+			color:white;
+			position: absolute;
+			left:330px;
+			bottom:350px;
+			
+			}
+		h1{
+			color:rgb(251, 246, 246);
+			position: absolute;
+			left:250px;
+			top:380px;
+		}
+		.profile{
+			position:absolute;
+			left:500px;
+			top:60px;
+		}
+		.education{
+			position:absolute;
+			left:750px;
+			top:60px;
+			color:antiquewhite
+		}
+		.contact{
+			position:absolute;
+			left:1000px;
+			top:60px;
+			color:antiquewhite
+		}
+		.profile{
+			background-color:transparent;
+			color:white;
+		}
+		.education{
+			background-color: transparent;
+			color:white;
+		}
+		img.photo{
+			position: absolute;
+			left:900px;
+			top:200px;
+			width : 35%;
+			height:500px;
+			border-radius: 50%;
+			border:3px solid seashell;
+			background-color: rgb(253, 252, 250);
+			
+		}
+		img.facebook{
+			position:absolute;
+			left:1045px;
+			top:18px;
+			height:100px;
+		}
+		img.insta{
+			position:absolute;
+			left:1150px;
+			top:30px;
+			height:70px;
+		}
+		img.whatsapp{
+			position:absolute;
+			left:1210px;
+			top:48px;
+			height:40px;
+		}
+		img.mail{
+			position:absolute;
+			left:1235px;
+			top:18px;
+			height:110px;
+
+		}
+		img.twitter{
+			position:absolute;
+			left:1310px;
+			top:35px;
+			height:70px;
+		}
+		
+		#home{
+			position:absolute;
+			left:300px;
+			top:60px;
+			color:antiquewhite
+		}
+		#home{
+			background-color: transparent;
+		}
+		.top{
+			background-color:black;
+			height:100px;
+			bottom:100px;
+			width:1474px;
+		}
+		.consider{
+			color: rgb(248, 248, 247);
+			position: absolute;
+			bottom:250px;
+			left:100px;
+		}
+		.learn{
+			color: rgb(252, 252, 3);
+			position: absolute;
+
+			left:300px;
+			top:600px;
+			
+		}
+		img.all{
+			position:absolute;
+			left:100px;
+			top:15px;
+			background-color: transparent;
+			height:100px;
+		}
+	
+		#btecheducationtwo{
+			width:100%;
+		}
+
+		
+		#edu{
+			color: black;
+			position: absolute;
+			top:200px;
+			left:160px;
+		}
+		.btechbranch{
+			color: black;
+			position: absolute;
+			top:300px;
+			left:150px;
+
+		}
+		.btechstatus{
+			color: black;
+			position: absolute;
+			top:400px;
+			left:220px;
+		}
+
+		.btechcollege{
+			color: black;
+			position: absolute;
+			top:480px;
+			left:50px;
+			
+		}
+		.btechcollegephoto{
+			height: 230px;
+			position: absolute;
+			top:360px;
+			left:800px;
+		}
+		.btechcollegename{
+			color:grey;
+			position: absolute;
+			left:830px;
+			top:600px;
+		}
+		.buttonone{
+			position: absolute;
+			left:1450px;
+			top:500px;
+			height:20px;
+		}
+		#btechcollegephoto{
+			
+			position: absolute;
+			left:970px;
+			top:100px;
+			height: 300px;
+		}
+		#btechyear{
+			color: black;
+			position: absolute;
+			left:250px;
+			top:550px;
+			
+		}
+		#edutwo{
+			color:black;
+			position: absolute;
+			left:200px;
+			top:200px;
+			width: 1000px;
+		}
+		.diplamobranch{
+			color: black;
+			position: absolute;
+			top:300px;
+			left:170px;
+			width: 1000px;
+
+		}
+		.diplamostatus{
+			color: black;
+			position: absolute;
+			top:400px;
+			left:300px;
+			width: 1000px;
+		}
+
+		.diplamocollege{
+			color: black;
+			position: absolute;
+			top:450px;
+			left:80px;
+			width: 1000px;
+			
+		}
+		#diplamocollegephoto{
+			height: 180px;
+			position: absolute;
+			top:380px;
+			left:900px;
+			width: 500px;
+		}
+		.diplamocollegename{
+			color:grey;
+			position: absolute;
+			left:900px;
+			top:550px;
+			width: 1000px;
+		}
+		
+		.diplamocollegephoto{
+			position: absolute;
+			left:880px;
+			top:150px;
+			height:250px;
+			width: 500px;
+		}
+		.diplamoyear{
+			color: black;
+			position: absolute;
+			left:300px;
+			top:550px;
+			width: 1000px;}
+	
+		#eduthree{
+			color:black;
+			position: absolute;
+			left:200px;
+			top:200px;
+			width: 1000px;
+			
+		}
+		.tenbranch{
+			color: black;
+			position: absolute;
+			top:300px;
+			left:170px;
+			width: 1000px;
+
+		}
+		.tenstatus{
+			color: black;
+			position: absolute;
+			top:400px;
+			left:300px;
+			width: 1000px;
+		}
+
+		.tencollege{
+			color: black;
+			position: absolute;
+			top:480px;
+			left:80px;
+			width: 1000px;
+			
+		}
+		#tencollegephoto{
+			height: 180px;
+			position: absolute;
+			top:380px;
+			left:800px;
+			height: 200px;
+		}
+		.tencollegename{
+			color:grey;
+			position: absolute;
+			left:900px;
+			top:600px;
+			width: 1000px;
+		}
+		
+		.tencollegephoto{
+			position: absolute;
+			left:880px;
+			top:160px;
+			height:250px;
+
+		}
+		.tenyear{
+			color: black;
+			position: absolute;
+			left:300px;
+			top:600px;
+			width: 1000px;
+		}
+		#nextone{
+			color: rgb(255, 252, 252);
+			position: absolute;
+			left:1500px;
+			top:500px;}
+			.float{
+				position:absolute;
+				top:15px;
+			}
+			#edude{
+			color: black;
+			position: absolute;
+			top:0px;
+			left:0px;
+			}
+			#firstpage{
+				margin:30px 15px 15px 15px;
+				height: 700px;
+				border: dotted;
+				width:1474px;
+				background-color:rgb(3, 48, 48);
+
+			}
+			#secondpage{
+				margin:30px 15px 15px 15px;
+				height: 700px;
+				width: 1474px;
+				border: dotted;
+				background-color:darkkhaki;
+			}
+			
+			#seconddot{
+			position: absolute;
+			top:600px;
+			left:1400px;
+			color: rgb(249, 247, 247);
+			}
+			#thirddot{
+				position: absolute;
+			top:600px;
+			left:3550px;
+			color: rgb(249, 247, 247);
+			}
+			.buttontwo{
+				position: absolute;
+			left:1430px;
+			top:500px;
+			height:20px;
+			}
+			#thirdpagetwo{
+				margin:100px 15px 15px 15px;
+				height: 700px;
+				border: dotted;
+				width:100;
+				position: absolute;
+				width:1474px;
+				background-color: azure;
+				left:1600px;
+			}
+			#thirdpage{
+				margin:100px 15px 15px 15px;
+				height: 700px;
+				border: dotted;
+			
+				position: absolute;
+				width:1474px;
+				background-color: azure;
+				
+			
+			}
+			#btechlife{
+				position: absolute;
+				top:1200px;
+				height: 600px;
+				color: bisque;
+			}
+			#diplamolife{
+				position: absolute;
+				top:00px;
+				left:0px;
+				height: 600px;
+				color: bisque;
+				width:1474;
+			}
+			#floatone{
+				position: absolute;
+				top:750px;
+			}
+			#thirdpagethree{
+				position: absolute;
+				top:1485px;
+				margin:100px 15px 15px 15px;
+				height: 700px;
+				border: dotted;
+				width:100;
+				position: absolute;
+				width:1474px;
+				background-color: azure;
+				left:3200px;
+			}
+			.name{
+				position: absolute;
+				left:100px;
+				top:1000px;
+			}
+			img.imgdob{
+				height:20px;
+				position: absolute;
+				top:0px;
+				
+			}
+			.dob{
+				position: absolute;
+				left:465px;
+				top:1060px;
+			}
+			.place{
+				position: absolute;
+				left:100px;
+				top:1060px;
+			}
+			.status{
+				position: absolute;
+				left:1100px;
+				top:1383px;
+			}
+			.passport{
+				position: absolute;
+				left:980px;
+				top:150px;
+			}
+			img.address{
+				position: absolute;
+				position: absolute;
+				left:70px;
+				top:1100px;
+				height: 100px;
+			}
+			#floatten{
+				position: absolute;
+				top:750px;
+				left:25px;
+			}
+			.addresstwo{
+				position: absolute;
+				position: absolute;
+				left:150px;
+				top:1125px;
+			}
+			.hobbies{
+				margin:100px 15px 15px 15px;
+				height: 200px;
+				border:dotted;
+				width:300px;
+				position: absolute;
+				top:1100px;
+				left:80px;
+				background-color: transparent;
+			}
+			img.hobbies{
+				height: 70px;
+				width: 70px;
+			}
+			.hobbiesone{
+				position: absolute;
+				top:1200px;
+				left:200px;
+			}
+			img.chess{
+				position: absolute;
+				top:1250px;
+				left:300px;
+				height:70px;
+			}
+			.chessname{
+				position: absolute;
+				left:110px;
+				top:60px;
+			}
+			.moviename{
+				position: absolute;
+				left:80px;
+				top:100px;
+			}
+			img.movie{
+				position: absolute;
+				top:1300px;
+				left:100px;
+				height:50px;
+			}
+			.photographyname{
+				position: absolute;
+				left:110px;
+				top:145px;
+			}
+		img.photography{
+			position: absolute;
+				top:1350px;
+				left:300px;
+				height:50px;
+		}
+
+	
+		
+		
+		
+
+
+	 </style>
+</head>
+<body>
+	<header>
+		<div id="firstpage">
+			<h2>HI &nbsp;&nbsp;I'AM&nbsp;&nbsp; POLAMARASETTY &nbsp;YOGANAND&nbsp&nbsp; BHARAT</h2>
+			<H4>(STUDENT)</H4>
+			<nav>
+				<div class="float">
+				<ul>
+					<li class="profile"><a href="about.html">PROFILE</a> 
+					<li class="education"><a href="#thirdpage">EDUCATION</a>
+					<li id="home"> <a href="bharath2.html">HOME</a></li>
+					<li class="contact"><a href="contact.html">CONTACT ME</a>
+					
+	
+					
+				</ul>
+				<a href="#home"><img src="https://i.imgur.com/j4pKqgw.png" class="all"></a>
+				<p class="top">.</p>
+				<a href="https://www.facebook.com/bharath.polamarasetty"><img src="https://i.imgur.com/BIoQ1g0.png" class="facebook"></a>
+				<a href="https://www.instagram.com/bharath_polamarasetty_24/"><img src="https://i.imgur.com/Fool6jS.png" class="insta"></a>
+				<a href="https://wa.link/1m8r4k"><img src="https://i.imgur.com/M55nij2.png" class="whatsapp"></a>
+				<a href="mailto:bharathpolamarasetty@gmail.com"><img src="https://i.imgur.com/ivxG4HA.png" class="mail"></a>
+				<a href="https://twitter.com/BharathPolamar1"><img src="https://i.imgur.com/1L4sZ0p.png" class="twitter"></a></div>
+				<img src="https://i.imgur.com/iIBgD0d.png" class="photo"></a>
+				<a href="#secondpage" class="learn">LEARN MORE&nbsp;>>></a>
+				
+				
+				<h1>B.TECH&nbsp; MECHANICAL</h1>
+				
+				<p class="consider">I consider my self a
+					responsible and orderly
+					person.
+					I am looking foward for
+					my first work
+					experience.</p>
+					</nav>
+		</div>
+		
+		<div id="secondpage">
+			<div id="floatten">
+				<ul>
+				<li class="profile"><a href="about.html">PROFILE</a> 
+				<li class="education"><a href="#edude">EDUCATION</a>
+				<li id="home"> <a href="bharath2.html">HOME</a></li>
+				<li class="contact"><a href="contact.html">CONTACT ME</a>
+				
+	
+				
+			</ul>
+			<a href="#home"><img src="https://i.imgur.com/j4pKqgw.png" class="all"></a>
+			<img class="passport" src="https://i.imgur.com/QgANL0j.png">
+			<p class="top">.</p>
+			<a href="https://www.facebook.com/bharath.polamarasetty"><img src="https://i.imgur.com/BIoQ1g0.png" class="facebook"></a>
+			<a href="https://www.instagram.com/bharath_polamarasetty_24/"><img src="https://i.imgur.com/Fool6jS.png" class="insta"></a>
+			<a href="https://wa.link/1m8r4k"><img src="https://i.imgur.com/M55nij2.png" class="whatsapp"></a>
+			<a href="mailto:bharathpolamarasetty@gmail.com"><img src="https://i.imgur.com/ivxG4HA.png" class="mail"></a>
+			<a href="https://twitter.com/BharathPolamar1"><img src="https://i.imgur.com/1L4sZ0p.png" class="twitter"></a></div>	
+			<h1 class="name">POLAMARASETTY YOGANAND BHARAT</h1>
+			<h4 class="dob"><img class="imgdob" src="https://i.imgur.com/EqKyep0.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:24-&nbsp;JUNE-&nbsp;2002</h4>
+			<h4 class="place">[PLACE &nbsp;OF &nbsp;BIRTH&nbsp;:&nbsp; VISAKHAPATNAM]</h4>
+			<h2 class="status">[STUDENT]</h2>
+			<img class="address" src="https://i.imgur.com/yOFyXiN.png">
+			<p class="addresstwo">D/NO:2-128/2,Near DurgaDevi Temple,Kothaplem,Goplapatnam,Visakhapatnam,AndhraPradesh,530027</p>
+			<img class="hobbies" src="https://i.imgur.com/AbOtHD0.png">hobbies</img>
+			<img class="chess" src="https://i.imgur.com/i4qPt5b.png">
+			<img class="movie" src="https://i.imgur.com/ZJyXEup.png">
+			<img class="photography" src="https://i.imgur.com/LBkZfHF.png">
+			<h2 class="hobbiesone">HOBBIES </h2>
+			
+
+			<div class="hobbies">
+				<p class="chessname">Playing Chess</p>
+				<p class="moviename">Watching Movies</p>
+				<p class="photographyname">Photography</p>
+			</div>
+
+			
+		</div>
+			
+	
+<div id="thirdpage">
+	<p id="float">
+		<ul>
+			<li class="profile"><a href="about.html">PROFILE</a> 
+			<li class="education"><a href="#edude">EDUCATION</a>
+			<li id="home"> <a href="bharath2.html">HOME</a></li>
+			<li class="contact"><a href="contact.html">CONTACT ME</a>
+			
+
+			
+		</ul>
+		<a href="#home"><img src="https://i.imgur.com/j4pKqgw.png" class="all"></a>
+		<p class="top">.</p>
+		<a href="https://www.facebook.com/bharath.polamarasetty"><img src="https://i.imgur.com/BIoQ1g0.png" class="facebook"></a>
+		<a href="https://www.instagram.com/bharath_polamarasetty_24/"><img src="https://i.imgur.com/Fool6jS.png" class="insta"></a>
+		<a href="https://wa.link/1m8r4k"><img src="https://i.imgur.com/M55nij2.png" class="whatsapp"></a>
+		<a href="mailto:bharathpolamarasetty@gmail.com"><img src="https://i.imgur.com/ivxG4HA.png" class="mail"></a>
+		<a href="https://twitter.com/BharathPolamar1"><img src="https://i.imgur.com/1L4sZ0p.png" class="twitter"></a></p>
+	<p id="btechlife">
+        <h1 id="edu" >EDUCATION DETAILS:</h1>
+        <h1 class="btechbranch">B.TECH&nbsp; (MECHANICAL)</h1>
+        <h4 class="btechstatus">( FINAL &nbsp;YEAR&nbsp;STUDENT)</h4>
+        <h3 class="btechcollege">Present-Iam pursuing my btech in visakha institute of engineering and technology</h3>
+        <img class="btechcollegephoto" src="https://i.imgur.com/O5rlgWY.jpeg">
+        <h2 class="btechcollegename">(visakha&nbsp; institute&nbsp; of&nbsp; engineering&nbsp; and &nbsp;technology)</h2>
+        <a href="#seconddot"><img class="buttonone" src="https://i.imgur.com/H9K2vP5.png">
+			<h1 id="btechyear">2020-2023</h1><br>
+        <img src="https://i.imgur.com/mWpilEd.png"id="btechcollegephoto"></a></p></div>
+		<div id="thirdpage">
+	<p id="float">
+		<ul>
+			<li class="profile"><a href="about.html">PROFILE</a> 
+			<li class="education"><a href="#edude">EDUCATION</a>
+			<li id="home"> <a href="bharath2.html">HOME</a></li>
+			<li class="contact"><a href="contact.html">CONTACT ME</a>
+			
+
+			
+		</ul>
+		<a href="#home"><img src="https://i.imgur.com/j4pKqgw.png" class="all"></a>
+		<p class="top">.</p>
+		<a href="https://www.facebook.com/bharath.polamarasetty"><img src="https://i.imgur.com/BIoQ1g0.png" class="facebook"></a>
+		<a href="https://www.instagram.com/bharath_polamarasetty_24/"><img src="https://i.imgur.com/Fool6jS.png" class="insta"></a>
+		<a href="https://wa.link/1m8r4k"><img src="https://i.imgur.com/M55nij2.png" class="whatsapp"></a>
+		<a href="mailto:bharathpolamarasetty@gmail.com"><img src="https://i.imgur.com/ivxG4HA.png" class="mail"></a>
+		<a href="https://twitter.com/BharathPolamar1"><img src="https://i.imgur.com/1L4sZ0p.png" class="twitter"></a></p>
+	<p id="btechlife">
+        <h1 id="edu" >EDUCATION DETAILS:</h1>
+        <h1 class="btechbranch">B.TECH&nbsp; (MECHANICAL)</h1>
+        <h4 class="btechstatus">( FINAL &nbsp;YEAR&nbsp;STUDENT)</h4>
+        <h3 class="btechcollege">Present-Iam pursuing my btech in visakha institute of engineering and technology</h3>
+        <img class="btechcollegephoto" src="https://i.imgur.com/O5rlgWY.jpeg">
+        <h2 class="btechcollegename">(visakha&nbsp; institute&nbsp; of&nbsp; engineering&nbsp; and &nbsp;technology)</h2>
+        <a href="#seconddot"><img class="buttonone" src="https://i.imgur.com/H9K2vP5.png">
+			<h1 id="btechyear">2020-2023</h1><br>
+        <img src="https://i.imgur.com/mWpilEd.png"id="btechcollegephoto"></a></p></div>
+
+
+
+
+		<div id="thirdpagetwo">
+			<p id="float">
+				<ul>
+					<li class="profile"><a href="about.html">PROFILE</a> 
+					<li class="education"><a href="#edude">EDUCATION</a>
+					<li id="home"> <a href="bharath2.html">HOME</a></li>
+					<li class="contact"><a href="contact.html">CONTACT ME</a>
+					
+		
+					
+				</ul>
+				<a href="#home"><img src="https://i.imgur.com/j4pKqgw.png" class="all"></a>
+				<p class="top">.</p>
+				<a href="https://www.facebook.com/bharath.polamarasetty"><img src="https://i.imgur.com/BIoQ1g0.png" class="facebook"></a>
+				<a href="https://www.instagram.com/bharath_polamarasetty_24/"><img src="https://i.imgur.com/Fool6jS.png" class="insta"></a>
+				<a href="https://wa.link/1m8r4k"><img src="https://i.imgur.com/M55nij2.png" class="whatsapp"></a>
+				<a href="mailto:bharathpolamarasetty@gmail.com"><img src="https://i.imgur.com/ivxG4HA.png" class="mail"></a>
+				<a href="https://twitter.com/BharathPolamar1"><img src="https://i.imgur.com/1L4sZ0p.png" class="twitter"></a></p>
+				<div id="diplamolife">
+				<h1 id="edutwo" >EDUCATION &nbsp;DETAILS:</h1>
+				<h1 class="diplamobranch">DIPLOMA&nbsp; (MECHANICAL)</h1>
+				<h4 class="diplamostatus">( COMPLETED  &nbsp;IN&nbsp;2020)</h4>
+				<h3 class="diplamocollege">I completed the pass requirements for
+					the award of Diploma at examination held in
+					March 2020<br> And undergone industrial training
+					for a period of six months as part of the
+					curriculum with a <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percentage of marks 71.29%</h3>
+				<img id="diplamocollegephoto" src="https://i.imgur.com/CFPGixp.png">
+				<a href="#nextone"><img class="buttontwo" src="https://i.imgur.com/H9K2vP5.png">
+				<h2 class="diplamocollegename">(ALWARDAS&nbsp;POLYTECHNIC&nbsp;COLLEGE)</h2>
+				<img src="https://i.imgur.com/vN3ZGVA.png" class="diplamocollegephoto">
+				<p id="seconddot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</p>
+				<h1 class="diplamoyear">2017-2020</h1></a></div></div>
+			
+	
+	
+			
+		
+
+
+        <div id="thirdpagethree">
+			<div class="float">
+				<ul>
+					<li class="profile"><a href="about.html">PROFILE</a> 
+					<li class="education"><a href="#thirdpage">EDUCATION</a>
+					<li id="home"> <a href="bharath2.html">HOME</a></li>
+					<li class="contact"><a href="contact.html">CONTACT ME</a>
+					
+	
+					
+				</ul>
+				<a href="#home"><img src="https://i.imgur.com/j4pKqgw.png" class="all"></a>
+				<p class="top">.</p>
+				<a href="https://www.facebook.com/bharath.polamarasetty"><img src="https://i.imgur.com/BIoQ1g0.png" class="facebook"></a>
+				<a href="https://www.instagram.com/bharath_polamarasetty_24/"><img src="https://i.imgur.com/Fool6jS.png" class="insta"></a>
+				<a href="https://wa.link/1m8r4k"><img src="https://i.imgur.com/M55nij2.png" class="whatsapp"></a>
+				<a href="mailto:bharathpolamarasetty@gmail.com"><img src="https://i.imgur.com/ivxG4HA.png" class="mail"></a>
+				<a href="https://twitter.com/BharathPolamar1"><img src="https://i.imgur.com/1L4sZ0p.png" class="twitter"></a></div>
+				
+
+        <h1 id="eduthree" >EDUCATION &nbsp;DETAILS:</h1>
+        <h1 class="tenbranch">(SSC)</h1>
+        <h4 class="tenstatus">( COMPLETED  &nbsp;IN&nbsp;2017)</h4>
+        <h3 class="tencollege">I passed SSC examination held in march
+            2017 with GPA 9.2</h3>
+        <img id="tencollegephoto" src="https://i.imgur.com/knZyJwe.png">
+        <h2 class="tencollegename">(BHASHYAM PUBLIC SCHOOL)</h2>
+        <img src="https://i.imgur.com/E252O6z.png" class="tencollegephoto">
+        
+        
+        <h1 class="tenyear">2016-2017</h1>
+        <p id="nextone">.</p>
+	</p>
+		
+
+
+
+
+
+				
+				
+
+				
+				
+				
+		</nav>
+	</header>
